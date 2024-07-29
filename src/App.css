@@ -1,12 +1,16 @@
 /* Global CSS */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 h1,
 h2,
 h3,
@@ -161,6 +165,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
 }
 .navbar--items > ul {
   list-style: none;
@@ -204,6 +209,14 @@ h2 {
   align-items: flex-start;
   gap: 32px;
 }
+.section--title{
+  color: var(--heading-color);
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 40px;
+  align-self: stretch;
+
+}
 .hero--section--content {
   display: flex;
   flex-direction: column;
@@ -215,8 +228,8 @@ h2 {
 }
 .hero--section--title {
   color: var(--heading-color);
-  font-size: 54.667px;
-  font-weight: 700;
+  font-size: 75.667px;
+  font-weight: 900;
   line-height: 90px;
   align-self: stretch;
 }
@@ -233,11 +246,22 @@ h2 {
   display: flex;
 
 }
-.hero--section--img > img {
-  width: 70%;
-  height: 30%;
-  border-radius: 50px;
+
+.hero--section--img:hover img {
+  transform: scale(1.05);
+  filter: grayscale(100%);
 }
+
+.hero--section--img > img {
+  width: 80%;
+  height: 75%;
+  border-radius: 50%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  z-index: 1; 
+  position: relative; 
+}
+
+
 /* Hero Section Style Ends */
 
 /* Skills Section Style */
