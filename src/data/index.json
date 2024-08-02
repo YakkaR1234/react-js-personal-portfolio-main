@@ -2,27 +2,27 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+     
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I am moderately skilled in front-end development, with a solid understanding of HTML, CSS, and JavaScript. I have experience creating responsive designs and integrating APIs to enhance user experiences"
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+   
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I'm quite good at backend development and have a great understanding of database administration, server-side programming, and API integration."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I am skilled in UI and UX design and development, merging technical know-how with creativity to produce visually appealing and user-friendly user interfaces."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      
+      "title": "Social Media Managing",
+      "description": "I have an outstanding knowledge in object-oriented programming and software development, and I speak Java fluently."
     }
   ],
   "portfolio": [
