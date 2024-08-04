@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.png" alt="Logoipsum" style={{ width: '100px', height: '50px' }} />
         </div>
         <div className="footer--items">
           <ul>
@@ -49,19 +49,7 @@ function Footer() {
                 About Me
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Contact"
-                className="text-md"
-              >
-                Contact
-              </Link>
-            </li>
+
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -172,7 +160,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made by Yashod</p>
         <div className="footer--social--icon">
           <ul>
             <li>

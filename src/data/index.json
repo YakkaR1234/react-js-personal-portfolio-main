@@ -25,53 +25,56 @@
       "description": "I have an outstanding knowledge in object-oriented programming and software development, and I speak Java fluently."
     }
   ],
-  "portfolio": [
-    {
-      "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-    {
-      "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-    {
-      "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    }
-  ],
+  
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image.png",
+        "title": "notepad",
+        "description": "A web-based app called Notes Pad helps with recording notes. I use Mern Stack with Tailwind CSS to implement it.",
+        "link": "https://github.com/YakkaR1234/NotePad"
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image-1.png",
+        "title": "LMS",
+        "description": "L.L.L.L is an online learning management system implemented using JavaScript and basic HTML.",
+        "link": "https://github.com/YakkaR1234/car-web-home"
+      },
+      {
+        "id": "3",
+        "src": "./img/placeholder-image-2.png",
+        "title": "CarWeb",
+        "description": "This landing page was made using React Js for an automobile-based website.",
+        "link": "https://github.com/YakkaR1234/LMS_-1"
+      }
+    ],
+  
+  
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "src": "./img/avatar-image.jpg",
+      "description": ". . . From mastering the MERN stack to designing seamless user experiences, yashod consistently delivers top-notch work. What stands out the most is their passion for continuous learning and improvement, always eager to take on new challenges and expand their expertise",
+      "author_name": "Chamika Munithunga",
+      "author_designation": "Traveller"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "src": "./img/avatar-image-1.jpg",
+      "description": ". . . What impresses me the most is their versatility across various projects, whether it's developing robust backend systems with Node.js or crafting intuitive front-end interfaces",
+      "author_name": "Sahan Waruna",
+      "author_designation": "CEO in WPS international"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "src": "./img/avatar-image-2.jpg",
+      "description": "I’ve known yashod for a long time, and beyond their impressive technical skills, what really stands out is their friendliness and approachability",
+      "author_name": "Avishka Srimal",
+      "author_designation": "UI/UX dev"
     }
   ]
 }
