@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer--container">
+    <footer id="Footer" className="footer--container">
       <div className="footer--link--container">
         <div>
           <img src="./img/logo.png" alt="Logoipsum" style={{ width: '100px', height: '50px' }} />
@@ -18,7 +18,7 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="heroSection"
-                className="text-md"
+                className="text-md "
               >
                 Home
               </Link>
@@ -69,7 +69,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/profile.php?id=100087265677636&mibextid=ZbWKwL"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -90,7 +90,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/yakka_x?igsh=d3h4Ym10Y3FoM3dv"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -134,7 +134,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/yashod-peiris-13a2102aa/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -161,49 +161,7 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">Made by Yashod</p>
-        <div className="footer--social--icon">
-          <ul>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Privacy_Policy"
-                className="text-sm"
-              >
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Terms_of_Service"
-                className="text-sm"
-              >
-                Terms of Service
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Cookies_Settings"
-                className="text-sm"
-              >
-                Cookies Settings
-              </Link>
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </footer>
   );
